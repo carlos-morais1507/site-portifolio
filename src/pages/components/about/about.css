@@ -1,0 +1,63 @@
+.about{
+ background-image: linear-gradient(to bottom, #2D6699, #193249);
+ height: 1024px;
+ width: 100%;
+ color: #fff;
+}
+
+.about--listpoints{
+    position: absolute;
+    left: 0;
+    top: 11;
+}
+
+.about--cave{
+    position: absolute;
+    right: 0;
+    top: 100vh;
+}
+
+.about--pickguy{
+    position: absolute;
+    right: 86px;
+    top: calc(100vh + 770px);
+}
+
+.about--title{
+    position: absolute;
+    left: 35px;
+    top: calc(100vh + 40px);
+    font-weight: 900;
+    font-size: 96px;   
+    color: #fff;
+    z-index: 2;
+}
+
+.about--academic{
+    font-weight: 500;
+    font-size: 24px;
+    color: #fff;
+}
+
+.academic--1{
+    position: absolute;
+    left: 140px;
+    top: calc(100vh + 355px);
+}
+
+.academic--2{
+    position: absolute;
+    left: 140px;
+    top: calc(100vh + 546px);
+}
+
+.about--description{
+    position: absolute;
+    right: 158px;
+    top: calc(100vh + 187px);
+    font-weight: 500;
+    font-size: 32px;
+    max-width: 562px;
+    color: #fff;
+    z-index: 2;
+}

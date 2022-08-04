@@ -1,0 +1,108 @@
+.projects{
+    background-image: linear-gradient(to bottom, #193249, #0C1A27);
+    height: 1024px;
+    width: 100%;
+    color: #fff;
+   }
+
+.projects--islandbottom{
+    position: absolute;
+    right: 0;
+    top: calc(100vh + 1024px);
+}
+
+@keyframes diverguy--float{
+    20%{margin-top: 428px;}
+    60%{margin-top: 458px;}
+    80%{margin-top: 458px;}
+    100%{margin-top: 428px;}
+}
+
+.projects--dverguy{
+    position: absolute;
+    left: 229px;
+    margin-top: 428px;
+    z-index: 3;
+    animation: diverguy--float 5s ease-in-out infinite;   
+}
+
+@keyframes flashlight--float {
+    20%{margin-top: -450px;}
+    60%{margin-top: -420px;}
+    80%{margin-top: -420px;}
+    100%{margin-top: -450px;}
+}
+
+.projects--flashlight{
+    position: absolute;
+    left: -2700px;
+    margin-top: -450px;
+    z-index: 2;
+
+    border-width: 1000px 3000px;
+    border-style: solid;
+
+    border-left-color: transparent;
+    border-right-color: rgba(255, 184, 0, 0.3);
+    border-top-color: transparent;
+    border-bottom-color: transparent;
+    animation: flashlight--float 5s ease-in-out infinite;  
+}
+
+.projects--title{
+    position: absolute;
+    left: 35px;
+    margin-top: 1064px;
+
+    font-size: 96px;
+    font-weight: 900;
+    color: #fff;
+    max-width: 600px;
+}
+
+@keyframes interests--float {
+    20%{margin-top: 703px;}
+    60%{margin-top: 733px;}
+    80%{margin-top: 733px;}
+    100%{margin-top: 703px;}
+}
+
+.projects--interests{
+    position: absolute;
+    left: 94px;
+    margin-top: 703px;
+    animation: interests--float 5s ease-in-out infinite; 
+    animation-delay: 2.5s;
+}
+
+.projects--skills{
+    position: absolute;
+    z-index: 1;
+    right: 600px;
+    margin-top: 275px;
+}
+
+.projects--projectlinks{
+    position: absolute;
+    right: 47px;
+    margin-top: 275px;
+}
+
+
+.projects a{
+    position:absolute;
+    right: 105px;
+    margin-top: 808px;
+    cursor: pointer;
+    z-index: 4;
+    transition: all ease 0.5s;
+}
+
+.projects a:hover{
+    margin-top: 768px;
+}
+
+.projects--githubicon{
+    border-radius: 9px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}

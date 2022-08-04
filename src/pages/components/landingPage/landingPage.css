@@ -1,0 +1,103 @@
+.landingpage{
+    color: #fff;
+    background-color: #3E86C7;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+@keyframes lp--clouds {
+    0%{maring-left: 0px;}
+    100%{margin-left: -200vh;}
+}
+
+.landingpage--clouds{
+    display: flex;
+    left: 0;
+    position: absolute;
+    top: 20px;
+    animation: lp--clouds 35s infinite linear;
+    width: 400vh;
+}
+
+.landingpage--greetings{
+    position: absolute;
+    top: calc(50vh - 140px);
+    left: calc(50% - 557px);
+    font-weight: bold;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 36px;
+    justify-self: center;
+    align-self: center;
+    margin: 20px 0px;
+    color: #fff;
+}
+
+.landingpage--logo{
+    width: 100%;
+    margin: 20px 0px;
+}
+
+.landingpage--subtitle{
+    letter-spacing: 20px;
+    font-weight: 500;
+}
+
+.landingpage--buttons{
+    position: absolute;
+    top: calc(50vh + 180px);
+    left: calc(50% - 90px);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.landingpage--buttonEng,
+.landingpage--buttonPt {
+    margin: 0px 20px;
+    cursor: pointer;
+    transition: all ease 0.2s;
+}
+
+.landingpage--buttonEng:hover,
+.landingpage--buttonPt:hover {
+    padding-top: 20px;
+}
+
+
+.island--svg{
+    position: absolute;
+    padding: 0;
+    bottom: 0px;
+    right: 0;
+}
+
+.sea--svg{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    animation: lp--clouds 25s infinite ease;
+}
+
+.landingpage--mouseoutline{
+    position: absolute;
+    bottom: 120px;  
+}
+
+@keyframes scroll {
+    0%{bottom: 170px; opacity: 1;}
+    100%{bottom: 130px; opacity: 0;}
+}
+
+.landingpage--mousescroll{
+    position: absolute;
+    bottom: 170px;
+    animation: scroll ease 1s infinite;  
+}
+

@@ -1,0 +1,26 @@
+.contact{
+    height: 1024px;
+    width: 100%;
+    background-color: #0C1A27;
+}
+
+.contact--ropeend{
+    position: absolute;
+    right: 146px;
+    margin-top: 0px;
+}
+
+.contact--end{
+    position: absolute;
+    margin-top: 924px;
+    width: 100%;
+    height: 100px;
+    background-color: #D9C271;
+    z-index: 1;
+}
+
+.contact--speepingguy{
+    position: absolute;
+    margin-top: 758px;
+    right: 150px;
+}
